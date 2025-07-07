@@ -1,4 +1,4 @@
-# 👋 Hi, I'm Expo39
+# 👋 Hi, I'm Antonio Galdes
 
 🎓 **Recent Computer Engineering graduate (First Class Honours, Dean's List) from the University of Malta.**
 
