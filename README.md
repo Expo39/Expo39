@@ -26,7 +26,7 @@ I have worked on projects related to:
 - 🧵 **[Threaded-Monte-Carlo](https://github.com/Expo39/Threaded-Monte-Carlo)** – Multi-threaded Monte Carlo integration showcasing C++ parallel computation.
 - 🌡️ **[Home-Ambient-Monitoring-System](https://github.com/Expo39/Home-Ambient-Monitoring-System)** – IoT environmental monitoring and FFT-based fire detection using ESP32.
 - 🔊 **[DTMF_Decoder](https://github.com/Expo39/DTMF_Decoder)** – Real-time embedded DTMF decoder using Goertzel algorithm for audio signal processing.
-- 📦 **[Inventory-Management-System](https://github.com/Expo39/Inventory-Management-System)** – Inventory system using C++ and Java, demonstrating design patterns, protocol buffers, and gRPC.
+- 📦 **[Inventory-Management-System](https://github.com/Expo39/Inventory-Management-System)** – Inventory system using C++ and Java, demonstrating protocol buffers and gRPC.
 - 🖥️ **[LEGv8](https://github.com/Expo39/LEGv8)** – Single-cycle LEGv8 datapath simulator with detailed execution tracing in C++.
 
 ---
