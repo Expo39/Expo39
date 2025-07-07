@@ -15,7 +15,7 @@ I have worked on projects related to:
 - Edge AI deployment on embedded systems
 - CPU vectorisation and parallel processing
 - Real-time signal and image processing
-- Efficient system-level design for robotics and CV pipelines
+- Efficient system-level design for CV pipelines
 
 ---
 
