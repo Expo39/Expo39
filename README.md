@@ -33,4 +33,4 @@ I have worked on projects related to:
 
 ## 🛠️ Languages & Tools
 
-CUDA | C++ | C | Embedded C | Python | PyTorch | OpenCV | Git | Docker | TypeScript | Linux
+CUDA | C++ | C | Embedded C | Python | PyTorch | OpenCV | Git | Docker | JavaScript | TypeScript | Linux
