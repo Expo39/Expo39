@@ -32,4 +32,4 @@ I have worked on projects related to:
 ---
 
 ## 🛠️ Languages & Tools
-CUDA | C++ | Python | Embedded C | PyTorch | OpenCV | Git | Docker | ROS | TypeScript
+CUDA | C++ | Python | Embedded C | PyTorch | OpenCV | Git | Docker | TypeScript
