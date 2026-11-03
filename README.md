@@ -1,6 +1,6 @@
 ### Hi, I'm Antonio
 
-I am a computer engineer from Malta, interested in GPU programming, embedded systems and robotics.
+I am a computer engineer from Malta, interested in embedded systems and robotics.
 
 I graduated from the University of Malta with First Class Honours in Computer Engineering. I have also completed an MSc in Artificial Intelligence.
 
