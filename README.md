@@ -16,6 +16,10 @@ I am learning robotics at the moment, so expect that to show up here over time.
 - **[My_Cookbook](https://github.com/Expo39/My_Cookbook)** ([live site](https://expo39.github.io/My_Cookbook/)): a recipe site for family and friends, with serving scaling, unit conversion and a cook mode. One Rust core runs at build time and in the browser through WebAssembly.
 - **[Code-Dojo](https://github.com/Expo39/Code-Dojo)**: a practice system for programming, with spaced repetition and timed drills. Claude Code acts as a tutor that asks questions and reviews, but never writes the answer.
 
+### Contact
+
+[LinkedIn](https://www.linkedin.com/in/antonio-galdes-0551bb267)
+
 ### Tools
 
 ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
