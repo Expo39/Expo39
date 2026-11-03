@@ -2,9 +2,7 @@
 
 I am a computer engineer from Malta, interested in GPU programming, embedded systems and robotics.
 
-I graduated from the University of Malta with First Class Honours in Computer Engineering. I have also finished my MSc in Artificial Intelligence, and all that is left is the viva.
-
-I am learning robotics at the moment, so expect that to show up here over time.
+I graduated from the University of Malta with First Class Honours in Computer Engineering. I have also completed an MSc in Artificial Intelligence.
 
 ### Projects
 
