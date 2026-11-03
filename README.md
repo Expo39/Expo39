@@ -1,56 +1,100 @@
-# Antonio Galdes
+<div align="center">
 
-Computer Engineer based in Malta, working on **GPU computing (CUDA), embedded systems and edge AI**, with a focus on making signal, image and learning pipelines fast and reliable on constrained hardware.
+# Hi, I'm Antonio Galdes 👋
 
-First Class Honours graduate in Computer Engineering (Dean's List), University of Malta. MSc Artificial Intelligence dissertation, September 2026.
+### Computer Engineer · MSc Artificial Intelligence · Malta
 
----
+*Software that touches the physical world: GPUs, microcontrollers, sensors, and now robots.*
 
-## Current focus
-
-- **Uncertainty-aware reinforcement learning** for autonomous systems: propagating EKF localisation uncertainty through evidential policy networks (PyTorch, ROS 2, CARLA).
-- **Performance engineering**: CUDA kernels, SIMD vectorisation and multi-threading.
-- **Developer tooling**: learning environments and small full-stack applications.
+</div>
 
 ---
 
-## Selected projects
+## 👨‍💻 About me
 
-### AI and machine learning
+I am a Computer Engineering graduate (First Class Honours, Dean's List) from the University of Malta, and I have just finished my **MSc in Artificial Intelligence**. The dissertation is written and submitted, and only the viva stands between me and the title.
 
-| Project | Description | Stack |
-|---|---|---|
-| [Uncertainty-Conditioned RL](https://github.com/Expo39/Uncertainty-Conditioned-RL-with-Evidential-Policy-Networks-for-Autonomous-Systems) | MSc dissertation. Autonomous parking under degraded GNSS, with EKF covariance fed to a PPO agent and an evidential Normal-Inverse-Gamma output head. | Python, PyTorch, ROS 2, CARLA |
-| [ICS5110 Applied ML](https://github.com/Expo39/ICS5110-AppliedML_Project) | Group project modelling Malta traffic accidents from police press releases and news articles, with LLM-assisted extraction and four compared classifiers (my part: gradient boosting). | Python, Jupyter, Optuna |
+I like the point where code meets hardware: making something fast on a GPU, getting a sensor to tell the truth on an ESP32, or teaching an agent to cope when its position estimate is wrong.
 
-### High-performance computing
+## 🤖 Right now
 
-| Project | Description | Stack |
-|---|---|---|
-| [CUDA-3D-DWT](https://github.com/Expo39/CUDA-3D-DWT) | Multi-level 3D Discrete Wavelet Transform on the GPU, validated on the CHAOS medical imaging dataset. | CUDA, C++ |
-| [SIMD-Image-Processor](https://github.com/Expo39/SIMD-Image-Processor) | Image resampling with Lanczos filtering and SIMD vectorisation. | C++ |
-| [Threaded-Monte-Carlo](https://github.com/Expo39/Threaded-Monte-Carlo) | Multi-threaded Monte Carlo integration. | C++ |
+- **Learning robotics.** Perception, state estimation, planning and control, working through ROS 2 and simulation.
+- Wrapping up the MSc with the **viva**.
 
-### Embedded systems and IoT
+## ⚡ Previously: performance engineering
 
-| Project | Description | Stack |
-|---|---|---|
-| [Home-Ambient-Monitoring-System](https://github.com/Expo39/Home-Ambient-Monitoring-System) | ESP32 sensing (temperature, humidity, CO2), FFT-based fire detection from audio, automated servo and fan response, and a React and Node.js dashboard. | ESP32, TypeScript, React, Node.js |
-| [DTMF_Decoder](https://github.com/Expo39/DTMF_Decoder) | Real-time touch-tone decoder using the Goertzel algorithm, with LCD output. | Embedded C |
-| [LEGv8](https://github.com/Expo39/LEGv8) | Single-cycle datapath simulator for the LEGv8 architecture, with detailed execution tracing. | C++ |
-
-### Software and tooling
-
-| Project | Description | Stack |
-|---|---|---|
-| [My_Cookbook](https://github.com/Expo39/My_Cookbook) ([live site](https://expo39.github.io/My_Cookbook/)) | Static recipe site with serving-size scaling, unit conversion, cook mode and an optional AI assistant. The same Rust core runs at build time and in the browser through WebAssembly. | Rust, WebAssembly, SvelteKit |
-| [Code-Dojo](https://github.com/Expo39/Code-Dojo) | Personal training system for deliberate practice, with spaced repetition and an AI tutor that explains and reviews but never writes the code. | Python |
-| [Inventory-Management-System](https://github.com/Expo39/Inventory-Management-System) | The same system implemented in C++ and Java, communicating through gRPC and Protocol Buffers. | C++, Java, gRPC |
+Before moving towards robotics, a good part of my time went on making things run quickly: CUDA kernels for volumetric medical data, SIMD vectorised image resampling, and multi-threaded numerical code in C++. Those projects are below.
 
 ---
 
-## Tools
+## 🚀 Projects
 
-**Languages:** C++ · C · CUDA · Python · Rust · TypeScript · JavaScript · Java
-**ML and vision:** PyTorch · OpenCV · scikit-learn · Optuna
-**Systems:** Linux · Docker · Git · ESP32 · ROS 2
+### 🧠 Dissertation: uncertainty-aware reinforcement learning for autonomous parking
+**[Uncertainty-Conditioned RL with Evidential Policy Networks](https://github.com/Expo39/Uncertainty-Conditioned-RL-with-Evidential-Policy-Networks-for-Autonomous-Systems)**
+
+A parking policy is only as good as its position estimate, and that estimate degrades when GNSS does. I fed the EKF covariance into a PPO agent and gave it an evidential output head, so the agent knows both how unsure the localisation is and how unsure it is of its own action. Trained in CARLA with ROS 2.
+`Python` `PyTorch` `ROS 2` `CARLA`
+
+### ⚡ CUDA 3D Discrete Wavelet Transform
+**[CUDA-3D-DWT](https://github.com/Expo39/CUDA-3D-DWT)**
+
+A multi-level 3D wavelet transform on the GPU, built for large medical volumes and validated on the CHAOS dataset.
+`CUDA` `C++`
+
+### 🖼️ SIMD image resampling
+**[SIMD-Image-Processor](https://github.com/Expo39/SIMD-Image-Processor)** · **[Threaded-Monte-Carlo](https://github.com/Expo39/Threaded-Monte-Carlo)**
+
+Two studies in squeezing the CPU: Lanczos resampling with SIMD intrinsics, and Monte Carlo integration spread across threads.
+`C++`
+
+### 🌡️ Home ambient monitoring
+**[Home-Ambient-Monitoring-System](https://github.com/Expo39/Home-Ambient-Monitoring-System)**
+
+An ESP32 that watches temperature, humidity and CO2, listens for a fire alarm with an FFT, and answers by opening a window and running a fan. A web dashboard shows it all live.
+`ESP32` `C++`
+
+### 🔊 Embedded signal processing
+**[DTMF_Decoder](https://github.com/Expo39/DTMF_Decoder)** · **[LEGv8](https://github.com/Expo39/LEGv8)**
+
+A touch-tone decoder using the Goertzel algorithm on a microcontroller, and a single-cycle LEGv8 processor simulator that traces every instruction.
+`C` `C++`
+
+### 🍳 My Cookbook
+**[My_Cookbook](https://github.com/Expo39/My_Cookbook)** · [live site](https://expo39.github.io/My_Cookbook/)
+
+A recipe site for family and friends, with serving scaling, unit conversion, a cook mode and an AI sous-chef. One Rust core runs at build time and in the browser through WebAssembly, so the two can never disagree about an amount.
+`Rust` `WebAssembly`
+
+### 🥋 Code Dojo
+**[Code-Dojo](https://github.com/Expo39/Code-Dojo)**
+
+A training system for getting good at programming without handing the work to an AI: spaced repetition, timed drills and Claude Code as a tutor that questions and reviews but never writes the answer.
+`Python`
+
+### 📊 Group project: Malta traffic accidents
+**[ICS5110 Applied ML](https://github.com/Expo39/ICS5110-AppliedML_Project)**
+
+Police press releases and news articles turned into a modelling dataset with LLM-assisted extraction, then four classifiers compared. I built the gradient boosting model.
+`Python` `Optuna`
+
+---
+
+## 🛠️ Toolbox
+
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black)
+![CUDA](https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
+![ROS 2](https://img.shields.io/badge/ROS_2-22314E?style=flat-square&logo=ros&logoColor=white)
+
+![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=flat-square&logo=espressif&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
