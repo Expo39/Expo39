@@ -2,7 +2,7 @@
 
 I am a computer engineer from Malta, interested in embedded systems and robotics.
 
-I graduated from the University of Malta with First Class Honours in Computer Engineering. I have also completed an MSc in Artificial Intelligence.
+I graduated from the University of Malta with First Class Honours in Computer Engineering. I am in the process of finishing my MSc in Artificial Intelligence.
 
 ### Projects
 
